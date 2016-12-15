@@ -1,14 +1,40 @@
 <html>
+
 <head>
-	<title>Primitives</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="assets/processing-1.3.6.min.js"></script>
+  <title>Primitives</title>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="assets/processing-1.3.6.min.js"></script>
 
 </head>
+
 <body>
-	<canvas data-processing-sources="assets/primitive3.pde" id="myCanvas"></canvas></div>
+  <div class='wrapper'>
+    <main class='sketch-container inline-block'>
+      <nav class="primitives_nav">
+        <ul>
+          <a href="#"><li>1</li></a>
+          <a href="#"><li>2</li></a>
+          <a href="#"><li>3</li></a>
+        </ul>
+      <canvas data-processing-sources="assets/primitive3.pde" id="myCanvas"></canvas>
+    </main>
 
+    <aside class='sidebar inline-block'>
+      <a id="logo" href="http://adamdriggers.com"></a>
+      <h1><strong>prim&middot;i&middot;tive </strong></h1>
+      <em>adjective</em>
 
-	<script type="text/javascript" src="app.js"></script>
+      <blockquote>being the first or earliest of the kind or in existence, especially in an early age of the world: primitive forms of life.</blockquote>
+
+      <p>In the realm of computer science, a primitive is the simplest data type available to a programmer.</p>
+      <p>When I started to learn how to use computer programming to create images I gave myself a constraint, to use only &ldquo;primitive&rdquo; shapes. The language that I used, Processing, lists the point, line, arc, quadrilateral, rectangle, and ellipse as two dimensional primitives. I further refined my constraint to be one primitive type, the ellipse, as the sole building block for a series of programs. The goal of using this constraint was to not become distracted by all the tools and features suddenly available to me. Any visual complexity would come from the code that I wrote.</p>
+      <p>The Primitive series is an ongoing project. Some of the programs are interactive, the user can employ the mouse to alter the images.</p>
+    </aside>
+  </div>
+  <!-- end of wrapper -->
+
+  <script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>
