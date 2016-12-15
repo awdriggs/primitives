@@ -20,7 +20,8 @@ body{
   height: 500px;
 }
 
-.inline-block{
+.block{
+  float: left;
   display: inline-block;
 }
 
