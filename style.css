@@ -62,7 +62,20 @@ canvas:focus {
   outline: none;
 }
 
-.button:hover {
+.on:hover {
   background-color: #fff;
   color: #000;
+}
+
+#canvas-wrapper {
+  margin-top: 20px;
+}
+.on{
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.off{
+  color: #3c3c3c;
+  border: 2px solid #3c3c3c;
 }
