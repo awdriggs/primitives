@@ -10,16 +10,17 @@
 
 <body>
   <div class='wrapper'>
+
+    <main class='sketch-container block left'>
     <nav class="primitives_nav">
-      <button id="prev" onclick="prev()">previous</button>
-      <button id="next" onclick="next()">next</button>
+      <div class='button block left' ><h2 onclick="next()">-</h2></div>
+      <div class='button block right'><h2 onclick="next()">+</h2></div>
     </nav>
 
-    <main class='sketch-container block'>
-      <canvas data-processing-sources="assets/primitive1.pde" id="myCanvas"></canvas>
+    <canvas data-processing-sources="assets/primitive1.pde" id="myCanvas"></canvas>
     </main>
 
-    <aside class='sidebar block'>
+    <aside class='sidebar block right'>
       <a id="logo" href="http://adamdriggers.com"></a>
       <h1><strong>prim&middot;i&middot;tive </strong></h1>
       <em>adjective</em>
