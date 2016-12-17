@@ -33,12 +33,12 @@ function nextSketch(){
 */
 
 function updateSketch(){
-  var main = document.getElementsByTagName('main')[0];
-  main.innerHTML = ''; //clear out the current canvas
+  var canvasDiv = document.getElementById('canvas-wrapper');
+  canvasDiv.innerHTML = ''; //clear out the current canvas
 
   var testStr = "<canvas id='myCanvas' data-processing-sources='assets/primitive"+index+".pde'></canvas>";
   console.log(testStr);
-  main.innerHTML = testStr;
+  canvasDiv.innerHTML = testStr;
   Processing.reload();
 }
 
