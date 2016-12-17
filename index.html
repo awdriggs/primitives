@@ -11,13 +11,15 @@
 <body>
   <div class='wrapper'>
 
-    <main class='sketch-container block left'>
+    <main class='block left'>
+    <div id='canvas-wrapper'>
+    <canvas data-processing-sources="assets/primitive1.pde" id="myCanvas"></canvas>
+    </div>
+
     <nav class="primitives_nav">
       <div class='button block left' ><h2 onclick="next()">-</h2></div>
       <div class='button block right'><h2 onclick="next()">+</h2></div>
     </nav>
-
-    <canvas data-processing-sources="assets/primitive1.pde" id="myCanvas"></canvas>
     </main>
 
     <aside class='sidebar block right'>
