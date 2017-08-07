@@ -1,6 +1,6 @@
 //document.getElementById('myCanvas').dataset.processingSources
 var index = 1;
-var numSketches = 7; //upper limit, set to the highest number sketch that you have in the file.
+var numSketches = 8; //upper limit, set to the highest number sketch that you have in the file.
 
 function next() {
   console.log('poop');
